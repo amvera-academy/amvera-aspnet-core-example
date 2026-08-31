@@ -1,0 +1,13 @@
+---
+meta:
+  environment: csharp
+  toolchain:
+    name: dotnet
+    version: 8.0
+build:
+  image: null
+run:
+  persistenceMount: /data
+  image: null
+  buildFileName: publish/AmveraDemo
+  containerPort: 8080
